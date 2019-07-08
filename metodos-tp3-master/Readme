@@ -1,0 +1,18 @@
+Cosideraciones del los datos que subí al repo. No subo la carpeta data por el peso, pero para tener todos lo mismo, yo tengo la carpeta data en el mismo directorio que la carpeta tools, metodos-tp3, dentro de la carpeta data estan todos los datos de archivos, de 1987 a 20008, más el de carriers y aeroports. 
+
+El  variable_descriptions.txt lo agregé yo, es una explicacion que estaba en la página de que era cada uno de los headers, para no tener que volver a ir a verlo (excepto en carriers y aeroports, que creo el header es distinto)
+
+Acpa abajo dejo el link del overleaf del informe, hasta ahora solo agarré el template que nos dieron y lo subí
+
+https://es.overleaf.com/4368357598svqptghvcykg
+
+EDIT : Bueno, lo acomodé parecido al tp anterior. Unas consideraciones, en mi CMakeLists.txt tengo esta linea de set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11"), que les generaba problemas, yo la dejo porque sino no compila, ustedes saquenla. 
+Segunda consideracion, cuando armo la clase de minimosCuadrados (solo puse el esqueleto), no sé como pasar lo de "pol", en nuestra implementación no sabíamos que hacer con eso así que no lo usamos, si ustedes Romi y Nico lo entendieron mejor y pueden reemplazarlo estaria genial.
+
+Para compilar es:
+
+cmake .
+make
+python3 main.py (no puse nada todavía)
+
+si quieren compilar el notebook, no se olviden de borrar el cache de CMake.

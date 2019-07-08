@@ -1,0 +1,11 @@
+No subimos las carpetas de data, eigen o pybind por el peso.
+
+Una consideracion, en mi CMakeLists.txt tengo esta linea de set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11"), que les generaba problemas, yo la dejo porque sino no compila, si genera problemas sacarla. 
+
+Para compilar es:
+
+cmake .
+make
+python3 main.py (no puse nada todavía)
+
+El main realmente no tiene nada de valor, la información está toda en los notebooks. Si quieren compilar el notebook  e hicieron make del main, hay que borrar el cache de CMake.

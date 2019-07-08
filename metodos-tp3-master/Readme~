@@ -1,0 +1,8 @@
+Cosideraciones del los datos que subí al repo. No subo la carpeta data por el peso, pero para tener todos lo mismo, yo tengo la carpeta data en el mismo directorio que la carpeta tools, metodos-tp3, dentro de la carpeta data estan todos los datos de archivos, de 1987 a 20008, más el de carriers y aeroports. 
+
+El  variable_descriptions.txt lo agregé yo, es una explicacion que estaba en la página de que era cada uno de los headers, para no tener que volver a ir a verlo (excepto en carriers y aeroports, que creo el header es distinto)
+
+Acpa abajo dejo el link del overleaf del informe, hasta ahora solo agarré el template que nos dieron y lo subí
+
+https://es.overleaf.com/4368357598svqptghvcykg
+
